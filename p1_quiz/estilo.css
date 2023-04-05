@@ -3,15 +3,19 @@
 *
 {
     box-sizing: border-box;
-    font-family: 'Balsamiq Sans';
+    font-family: 'Balsamiq Sans';    
 }
 
 header
 {
     text-align: center;
-    background: #091047;
+    background-image: linear-gradient( 35.2deg,  rgba(0,119,182,1) -18.7%, rgba(8,24,68,1) 54.3% );
     color: #fff;
     padding: 10px 0;
+}
+
+nav{
+    background-image: linear-gradient( 35.2deg,  rgba(0,119,182,1) -18.7%, rgba(8,24,68,1) 54.3% );
 }
 
 .container
@@ -19,6 +23,7 @@ header
     max-width: 700px;
     margin: auto;
     padding: 20px;
+    
 }
 
 section
@@ -27,6 +32,8 @@ section
     border-radius: 8px;
     padding: 10px;
     margin: 10px 0;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 label{
@@ -68,10 +75,11 @@ button:hover
 h2
 {
     text-align: center;
+    color: #fff
 }
 
 #resultado
 {
     font-size: 30px;
-    color: darkred;
+    color: rgb(228, 224, 224);
 }
